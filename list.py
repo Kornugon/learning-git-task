@@ -9,3 +9,5 @@ shopping_list = {
 products = []
 amount = 0
 
+for shop, product in shopping_list.items():
+    print(f"Idę do {shop}, kupuję tu następujące rzeczy: {product}.")
