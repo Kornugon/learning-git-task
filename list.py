@@ -10,4 +10,9 @@ products = []
 amount = 0
 
 for shop, product in shopping_list.items():
-    print(f"Idę do {shop}, kupuję tu następujące rzeczy: {product}.")
+  
+  for item in product:
+    products.append(item.capitalize())
+    amount = len(item)
+  print(f"Idę do {shop.capitalize()}, kupuję tu następujące rzeczy: {products}.")
+  products = []
