@@ -12,7 +12,7 @@ for shop, product in shopping_list.items():
   products = []
   for item in product:
     products.append(item.capitalize())
-    amount = len(item)
+    amount += 1
   print(f"Idę do {shop.capitalize()}, kupuję tu następujące rzeczy: {products}.")
 
 print(f"W sumie kupuję {amount} produktów.")
