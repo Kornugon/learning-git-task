@@ -16,3 +16,5 @@ for shop, product in shopping_list.items():
   print(f"Idę do {shop.capitalize()}, kupuję tu następujące rzeczy: {products}.")
 
 print(f"W sumie kupuję {amount} produktów.")
+
+print("\npozdrowienia :) \ndzięki za wsparcie :)")
